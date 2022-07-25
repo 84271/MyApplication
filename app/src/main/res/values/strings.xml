@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="enter_email">enter email</string>
+    <string name="please_enter_email">Please enter email</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="login_successfully">login_successfully</string>
+    <string name="password_should_be_greater_than_6">word_should_be_greater_than_6</string>
 </resources>

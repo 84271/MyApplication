@@ -5,38 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-
-        android:layout_marginHorizontal="140dp"
-        android:layout_marginVertical="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="login"
-        android:textsize="35"
+        android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <EditText
-        android:layout_width="380dp"
+        android:id="@+id/etmail"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter_email"
-        android:textsize="35"
-        />
+        android:text="Enter email"
+        android:textSize="35sp"
+    />
     <EditText
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter password"
-        android:textsize="35"
+        android:id="@+id/etPassword"
+        android:textSize="35sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:id="@+id/tvForgetPassword"
+        android:gravity="end"
+        android:textSize="25sp"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="110dp"
+        android:id="@+id/btnLogin"
         android:text="login"
-        android:textsize="35"
+        android:textSize="35sp"
         />
 
 
