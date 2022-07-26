@@ -22,13 +22,13 @@
         android:id="@+id/etmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter email"
+        android:hint="Enter email"
         android:textSize="35sp"
     />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter password"
+        android:hint="Enter password"
         android:id="@+id/etPassword"
         android:textSize="35sp"
         />
