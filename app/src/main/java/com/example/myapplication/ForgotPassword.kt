@@ -17,7 +17,7 @@ class ForgotPassword : AppCompatActivity() {
         etEmail=findViewById(R.id.etEmail)
         btnForgotPassword=findViewById(R.id.btnForgot)
         btnForgotPassword.setOnClickListener {
-            if(etEmail.text.to.String().isNullOrEmpty())
+            if(etEmail.text.toString().isNullOrEmpty())
             {
                 etEmail.requestFocus()
                 Toast.makeText(this,resources.getString(R.string.enter_email),Toast.LENGTH_SHORT).show()
